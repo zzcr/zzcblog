@@ -3,16 +3,16 @@
   
     
     <entry>
-      <title><![CDATA[我的第一篇文章]]></title>
-      <url>%2F2085%2F01%2F16%2Ftestblog%2F</url>
-      <content type="text"><![CDATA[可爱的外甥女 这是我利用hexo搭建自己的博客后发布的第一篇文章，在以后的文章。在以后的文章里，我会一步步的将如何免费搭建自己的博客的心得分享给大家。。。感谢阅读我的博客。]]></content>
+      <title><![CDATA[使用javascript最简单有效的定位当前日期是星期几的方法]]></title>
+      <url>%2F2017%2F04%2F13%2Feasy-day%2F</url>
+      <content type="text"><![CDATA[对于如何获取当前日期是星期几的做法，我想最常用的做法就是利用js的switch,case方法。 这里提供一个三行代码解决的方法（不要太激动哦！！！）1234var num = new Date().getDay();var str=&quot;日一二三四五六&quot;;var day=str.charAt(num);console.log(&quot;今天星期&quot;,day); 这个方法充分利用了字符串的charAt()方法，因为当num等于0的使用正好对位到了字符串str的第一个字符位置，这种方法简单且容易理解，推荐大家使用。]]></content>
     </entry>
 
     
     <entry>
-      <title><![CDATA[使用javascript最简单有效的定位当前日期是星期几的方法]]></title>
-      <url>%2F2017%2F04%2F13%2Feasy-day%2F</url>
-      <content type="text"><![CDATA[对于如何获取当前日期是星期几的做法，我想最常用的做法就是利用js的swich方法。 这里提供一个三行代码解决的方法（不要太激动哦！！！）1234var num = new Date().getDay();var str=&quot;日一二三四五六&quot;;var day=str.charAt(num);console.log(&quot;今天星期&quot;,day); 这个方法充分利用了字符串的charAt()方法，因为当num等于0的使用正好对位到了字符串str的第一个字符位置，这种方法简单且容易理解，推荐大家使用。]]></content>
+      <title><![CDATA[我的第一篇文章]]></title>
+      <url>%2F2017%2F04%2F12%2Ftestblog%2F</url>
+      <content type="text"><![CDATA[可爱的外甥女 这是我利用hexo搭建自己的博客后发布的第一篇文章，在以后的文章。在以后的文章里，我会一步步的将如何免费搭建自己的博客的心得分享给大家。。。感谢阅读我的博客。]]></content>
     </entry>
 
     
