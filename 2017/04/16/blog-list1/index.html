@@ -78,7 +78,7 @@
 <meta property="og:image" content="http://yoursite.com/2017/04/16/blog-list1/6.png">
 <meta property="og:image" content="http://yoursite.com/2017/04/16/blog-list1/7.png">
 <meta property="og:image" content="http://yoursite.com/2017/04/16/blog-list1/8.png">
-<meta property="og:updated_time" content="2017-04-16T06:57:23.809Z">
+<meta property="og:updated_time" content="2017-04-16T07:40:22.732Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用hexo和码云pages搭建高速流畅的免费技术博客系列文章1--为什么用码云">
 <meta name="twitter:description" content="这是一个系列文章，该系列文章将探讨如何一步步地搭建一个可高速浏览的免费技术博客【此系列文章默认读者会使用和已经下载了git和nodejs】,成品案例参考我的博客：zzc的博客。">
@@ -448,7 +448,7 @@
 <li>git pull –rebase origin master 进行代码合并，很多人在连接远程版本库之后就直接git push -u origin master，然后控制台会报错：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">$ git push -u origin master</div><div class="line">To git.oschina.net:ajaxZheng/blog.git</div><div class="line"> ! [rejected]        master -&gt; master (non-fast-forward)</div><div class="line">error: failed to push some refs to &apos;git@git.oschina.net:ajaxZheng/blog.git&apos;</div><div class="line">hint: Updates were rejected because the tip of your current branch is behind</div><div class="line">hint: its remote counterpart. Integrate the remote changes (e.g.</div><div class="line">hint: &apos;git pull ...&apos;) before pushing again.</div><div class="line">hint: See the &apos;Note about fast-forwards&apos; in &apos;git push --help&apos; for details.</div></pre></td></tr></table></figure>
 </li>
 </ul>
-<p>出现错误的主要原因是码云中的README.md文件不在本地代码目录中,可以通过如下命令进行代码合并【注：pull=fetch+merge] git pull –rebase origin master，执行上面代码后可以看到本地代码库中多了README.md文件</p>
+<p>出现错误的主要原因是码云中的README.md文件不在本地代码目录中,可以通过如下命令进行代码合并【注：pull=fetch+merge】 git pull –rebase origin master，执行上面代码后可以看到本地代码库中多了README.md文件</p>
 <ul>
 <li>git push -u origin master 推送到远程版本库。推送成功后你在线上就能看到你的本地版本库在线上显示：<br><img src="/2017/04/16/blog-list1/5.png" alt=""><h3 id="7-生成码云pages，和gitHup不同的是码云不用gh-pages分支即可生成静态页面，在master分支上一样可以生成静态页面，只需点击服务下面你的pages即可。"><a href="#7-生成码云pages，和gitHup不同的是码云不用gh-pages分支即可生成静态页面，在master分支上一样可以生成静态页面，只需点击服务下面你的pages即可。" class="headerlink" title="7. 生成码云pages，和gitHup不同的是码云不用gh-pages分支即可生成静态页面，在master分支上一样可以生成静态页面，只需点击服务下面你的pages即可。"></a>7. 生成码云pages，和gitHup不同的是码云不用gh-pages分支即可生成静态页面，在master分支上一样可以生成静态页面，只需点击服务下面你的pages即可。</h3><img src="/2017/04/16/blog-list1/6.png" alt=""><h3 id="8-生成页面，点击开始部署然后就可以得到页面的url："><a href="#8-生成页面，点击开始部署然后就可以得到页面的url：" class="headerlink" title="8. 生成页面，点击开始部署然后就可以得到页面的url："></a>8. 生成页面，点击开始部署然后就可以得到页面的url：</h3><img src="/2017/04/16/blog-list1/7.png" alt=""><br>点击连接就可以访问你的页面了<br><img src="/2017/04/16/blog-list1/8.png" alt=""><br>是不是感觉很简单！！！这样你就拥有了自己的免费的静态网站了。</li>
 </ul>
