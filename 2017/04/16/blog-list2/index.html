@@ -66,14 +66,15 @@
 <meta name="description" content="这是一个系列文章，该系列文章将探讨如何一步步地搭建一个可高速浏览的免费技术博客,成品案例参考我的博客：zzc的博客。">
 <meta name="keywords" content="blog">
 <meta property="og:type" content="article">
-<meta property="og:title" content="利用hexo和码云pages搭建高速流畅的免费技术博客系列文章1--环境搭建和hexo的价绍与使用">
+<meta property="og:title" content="利用hexo和码云pages搭建高速流畅的免费技术博客系列文章2--环境搭建和hexo的价绍与使用">
 <meta property="og:url" content="http://zhengzhichao.com/2017/04/16/blog-list2/index.html">
 <meta property="og:site_name" content="zzc的博客">
 <meta property="og:description" content="这是一个系列文章，该系列文章将探讨如何一步步地搭建一个可高速浏览的免费技术博客,成品案例参考我的博客：zzc的博客。">
 <meta property="og:image" content="http://zhengzhichao.com/2017/04/16/blog-list2/1.jpg">
-<meta property="og:updated_time" content="2017-04-17T03:07:24.034Z">
+<meta property="og:image" content="http://zhengzhichao.com/2017/04/16/blog-list2/2.jpg">
+<meta property="og:updated_time" content="2017-04-26T09:25:15.280Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="利用hexo和码云pages搭建高速流畅的免费技术博客系列文章1--环境搭建和hexo的价绍与使用">
+<meta name="twitter:title" content="利用hexo和码云pages搭建高速流畅的免费技术博客系列文章2--环境搭建和hexo的价绍与使用">
 <meta name="twitter:description" content="这是一个系列文章，该系列文章将探讨如何一步步地搭建一个可高速浏览的免费技术博客,成品案例参考我的博客：zzc的博客。">
 <meta name="twitter:image" content="http://zhengzhichao.com/2017/04/16/blog-list2/1.jpg">
 
@@ -109,7 +110,7 @@
 
 
 
-  <title> 利用hexo和码云pages搭建高速流畅的免费技术博客系列文章1--环境搭建和hexo的价绍与使用 | zzc的博客 </title>
+  <title> 利用hexo和码云pages搭建高速流畅的免费技术博客系列文章2--环境搭建和hexo的价绍与使用 | zzc的博客 </title>
   <style>
         #canvas{
             display: block;
@@ -337,7 +338,7 @@
             
             
               
-                利用hexo和码云pages搭建高速流畅的免费技术博客系列文章1--环境搭建和hexo的价绍与使用
+                利用hexo和码云pages搭建高速流畅的免费技术博客系列文章2--环境搭建和hexo的价绍与使用
               
             
           </h2>
@@ -447,7 +448,16 @@
 </li>
 </ol>
 <p>等待个大概十几秒钟，整个hexo就初始化完成了，最新版本的hexo在init初始化的时候就默认安装了所有的依赖包，不过为了确保万无一失，你可以输入命令：cnpm install，具体安装了哪些依赖包，可以查看hexo-test目录下的package.json文件。然后你就可以在hexo-test文件夹下看到如下工程目录：<br><img src="/2017/04/16/blog-list2/1.jpg" alt=""></p>
-<p>2.</p>
+<ol>
+<li>hexo编译生成，继续在Git Bash中输入：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo generate(可简写为：hexo g)</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>这一步就是hexo的编译生成静态文件过程，就是hexo-test目录下的public文件夹。里面就是打包编译后的网站博客静态文件（也就是你要上传到线上码云pages的文件）。</p>
+<ol>
+<li>hexo开启本地服务器，继续输入：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo sever(可简写为：hexo s)</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>hexo 有开启本地服务器的功能，这样你就可以在<a href="http://localhost:4000" target="_blank" rel="external">本地</a>预览访问你的网站了，在浏览器中输入<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>,不出意外你就可以得到如下图的hexo博客网站系统：<br><img src="/2017/04/16/blog-list2/2.jpg" alt=""><br>是不是很简单笑哭了 笑哭</p>
 
       
     </div>
@@ -517,8 +527,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/04/16/blog-list1/" rel="prev" title="利用hexo和码云pages搭建高速流畅的免费技术博客系列文章2--为什么用码云">
-                利用hexo和码云pages搭建高速流畅的免费技术博客系列文章2--为什么用码云 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/04/16/blog-list1/" rel="prev" title="利用hexo和码云pages搭建高速流畅的免费技术博客系列文章1--为啥用码云pages以及码云pages的简单应用。">
+                利用hexo和码云pages搭建高速流畅的免费技术博客系列文章1--为啥用码云pages以及码云pages的简单应用。 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
