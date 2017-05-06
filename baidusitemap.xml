@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://ajaxzheng.oschina.io/2017/04/13/easy-day/</loc>
+    <lastmod>2017-05-02T08:25:12.270Z</lastmod>
+    <data>
+        <display>
+        <title>使用javascript最简单有效的定位当前日期是星期几的方法</title>
+        <pubTime>2017-04-13T08:12:31.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+        <tag>日期</tag>
+         
+         
+           
+             
+              <breadCrumb title="javascript" url="http://ajaxzheng.oschina.io/categories/javascript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://ajaxzheng.oschina.io/2017/04/16/blog-list2/</loc>
+    <lastmod>2017-05-02T07:01:28.130Z</lastmod>
+    <data>
+        <display>
+        <title>利用hexo和码云pages搭建高速流畅的免费技术博客系列文章2--环境搭建和hexo的价绍与使用</title>
+        <pubTime>2017-04-16T07:49:44.000Z</pubTime>
+        
+        <tag>blog</tag>
+         
+         
+           
+             
+              <breadCrumb title="博客搭建" url="http://ajaxzheng.oschina.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://ajaxzheng.oschina.io/2017/04/16/blog-list1/</loc>
+    <lastmod>2017-04-26T08:43:58.224Z</lastmod>
+    <data>
+        <display>
+        <title>利用hexo和码云pages搭建高速流畅的免费技术博客系列文章1--为啥用码云pages以及码云pages的简单应用。</title>
+        <pubTime>2017-04-16T02:05:06.000Z</pubTime>
+        
+        <tag>blog</tag>
+         
+         
+           
+             
+              <breadCrumb title="博客搭建" url="http://ajaxzheng.oschina.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+</urlset>
