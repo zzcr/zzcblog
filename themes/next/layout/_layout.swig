@@ -9,6 +9,7 @@
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
+  <meta name="360-site-verification" content="aa146b7930381cce4a2f6d7710c815e1" />
   <style>
         #canvas{
             display: block;
