@@ -97,6 +97,12 @@
 <div class="body_content">
  <canvas id="canvas"></canvas>
 </div>
+<script>
+(function(){
+   var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?02e7cef3638618aebc6b8d13a6994bd2":"https://jspassport.ssl.qhimg.com/11.0.1.js?02e7cef3638618aebc6b8d13a6994bd2";
+   document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
 </body>
 <script>
 
